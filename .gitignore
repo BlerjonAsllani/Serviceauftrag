@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+vendor/
+
+# Logs
+*.log
+error.log
+api/error.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+frontend/build/
+
+# Env
+.env
+.env.local

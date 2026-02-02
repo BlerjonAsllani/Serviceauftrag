@@ -1,0 +1,44 @@
+# User Stories - Serviceauftragsverwaltung
+
+## Administrator
+
+### US-01: Auftrag erfassen
+**Als** Administrator  
+**möchte ich** einen neuen Serviceauftrag erfassen können  
+**damit** Kundenanfragen systematisch bearbeitet werden
+
+**Akzeptanzkriterien:**
+- Pflichtfelder: Kunde, Adresse, Telefon, Beschreibung
+- Priorität wählbar (normal, dringend, notfall)
+- Gewünschter Termin optional
+- Automatische Auftragsnummer
+
+### US-02: Auftrag disponieren
+**Als** Bereichsleiter  
+**möchte ich** Aufträge Mitarbeitern zuweisen  
+**damit** die Arbeit effizient verteilt wird
+
+**Akzeptanzkriterien:**
+- Mitarbeiter aus Liste wählen
+- Geplantes Datum festlegen
+- Interne Notizen erfassen
+
+## Bereichsleiter
+
+### US-03: Rapport freigeben
+**Als** Bereichsleiter  
+**möchte ich** erledigte Aufträge prüfen und freigeben  
+**damit** nur korrekte Arbeiten verrechnet werden
+
+## Mitarbeiter
+
+### US-04: Rapport erstellen
+**Als** Mitarbeiter  
+**möchte ich** nach Arbeitsausführung einen Rapport erfassen  
+**damit** die geleistete Arbeit dokumentiert wird
+
+**Akzeptanzkriterien:**
+- Ausführungsdatum pflicht
+- Arbeitszeit oder Stunden
+- Material dokumentieren
+- Bemerkungen (min. 20 Zeichen)
