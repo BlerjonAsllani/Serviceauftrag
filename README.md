@@ -30,7 +30,6 @@ Eine webbasierte Anwendung zur Verwaltung von Serviceaufträgen mit vollständig
 ### Voraussetzungen
 - XAMPP (Apache + PHP)
 - Node.js & npm
-- Supabase Account
 
 ### Backend Setup
 
@@ -38,12 +37,7 @@ Eine webbasierte Anwendung zur Verwaltung von Serviceaufträgen mit vollständig
 im bash
 cp -r Projekt /Applications/XAMPP/xamppfiles/htdocs/
 
-
-2. Supabase Datenbank einrichten:
-   - SQL-Dateien in `/database/` in Supabase importieren
-   - API Keys in `/api/config/supabase.php` eintragen
-
-3. Composer Dependencies installieren:
+2. Composer Dependencies installieren:
 im bash
 cd Projekt
 composer install
