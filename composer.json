@@ -1,0 +1,15 @@
+{
+    "name": "glauser/serviceauftragsverwaltung",
+    "description": "Serviceauftragsverwaltung für Glauser Illnau AG",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "autoload": {
+        "classmap": [
+            "api/classes/",
+            "api/config/"
+        ]
+    }
+}
